@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Railway detection is crucial for railway anomaly detection, and we propose a new railway database and a row-based railway detection method. 
+Railway detection is crucial for railway anomaly detection, and we propose a new railway database and a row-based railway detection method.
 
 ## SRail
 
@@ -17,6 +17,13 @@ git clone https://github.com/idnihai/UFATD.git
 pip install -r requirements.txt
 python train.py configs/srail.py
 ```
+
+## Trained models
+
+| Dataset | F1    | Model |
+| ------- | ----- | ----- |
+| DL-rail | 94.67 |       |
+|         |       |       |
 
 ## Acknowledgement
 
