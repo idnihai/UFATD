@@ -20,10 +20,10 @@ python train.py configs/srail.py
 
 ## Trained models
 
-| Dataset | F1    | Model |
-| ------- | ----- | ----- |
-| DL-rail | 94.67 |       |
-|         |       |       |
+| Dataset | F1    | Model                                                                                          |
+| ------- | ----- | ---------------------------------------------------------------------------------------------- |
+| DL-rail | 94.67 | [resnet18](https://drive.google.com/file/d/1i34RoZ7Q2LzT1AhDthAfE7p0HlGkRCmv/view?usp=drive_link) |
+|         |       |                                                                                                |
 
 ## Acknowledgement
 
