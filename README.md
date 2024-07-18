@@ -18,12 +18,20 @@ pip install -r requirements.txt
 python train.py configs/srail.py
 ```
 
+### **test scripts**
+
+Download the model and modify the **test_model** and **data_root** in the **configs\dlrail.py** file.
+
+```bash
+python test.py configs/dlrail.py
+```
+
 ## Trained models
 
-| Dataset | F1    | Model                                                                                          |
-| ------- | ----- | ---------------------------------------------------------------------------------------------- |
-| DL-rail | 94.67 | [resnet18](https://drive.google.com/file/d/1i34RoZ7Q2LzT1AhDthAfE7p0HlGkRCmv/view?usp=drive_link) |
-|         |       |                                                                                                |
+| Dataset                                      | F1    | Model                                                                                          | Note                                                                   |
+| -------------------------------------------- | ----- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [DL-rail](https://www.alipan.com/s/n1HV3tFpWCF) | 94.67 | [resnet18](https://drive.google.com/file/d/1i34RoZ7Q2LzT1AhDthAfE7p0HlGkRCmv/view?usp=drive_link) | "ego_left" and "ego_right" in the label file (txt) need to be removed. |
+|                                              |       |                                                                                                |                                                                        |
 
 ## Acknowledgement
 
